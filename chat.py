@@ -62,8 +62,8 @@ def complete_and_print(prompt: str, model: str = DEFAULT_MODEL):
   
 
 #csv data
-csv_material = "DATA\MATERIALS_V2.csv"
-csv_material_history = "DATA\MATERIAL_HISTORY_V2.csv"
+csv_material = "MATERIALS_V2.csv"
+csv_material_history = "MATERIAL_HISTORY_V2.csv"
 # Load the CSV files into DataFrames
 material_df = pd.read_csv(csv_material)
 material_history_df = pd.read_csv(csv_material_history)
